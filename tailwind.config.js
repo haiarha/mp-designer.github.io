@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
     "./src/templates/**/*.{js,jsx,ts,tsx}",
     "./src/marked/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{njk,md}"
   ],
   // see https://tailwindcss.com/docs/adding-custom-styles#customizing-your-theme
   theme: {

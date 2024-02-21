@@ -1,0 +1,32 @@
+---
+layout: base.njk
+title: Homepage
+homeText: VV
+greet: Hello, I'm Vadym Veremeichyk
+greetSubText: A highly skilled Full Stack Engineer
+about: Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+---
+
+
+<div class="py-32 md:py-48 lg:py-56">
+  <div class="">
+    <h1 class="mb-6 text-4xl font-semibold leading-none tracking-tight text-gray-900 md:text-6xl">{{ greet }}</h1>
+
+    <p class="text-lg leading-8 text-grey6">{{ greetSubText }}</p>
+  </div>
+</div>
+
+<div id="projects" class="py-16">
+  <h2 class="mt-4 mb-4 text-3xl font-semibold leading-none tracking-tight text-gray-900 md:text-5xl">Projects</h2>
+
+  <div class="mt-12 grid gap-6 grid-cols-1 md:grid-cols-2">
+    {% set projects = collections.projects %}
+    {% include "projects.njk" %}
+  </div>
+</div>
+
+<div id="about" class="py-32 max-w-screen-sm">
+  <h2 class="mt-4 mb-4 text-3xl font-semibold leading-none tracking-tight text-gray-900 md:text-5xl">About</h2>
+
+  <p class="text-lg leading-8 text-grey6">{{ about }}</p>
+</div>

@@ -1,0 +1,18 @@
+{% for project in projects | reverse %}
+      {# <li>
+        <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+      </li> #}
+<div class="group">
+  <a href="{{ project.url | url }}">
+    {# <div class="overflow-hidden  mb-4 rounded-lg">
+      <img
+        src={project.imgSrc || projectImageFallback}
+        class="object-cover group-hover:scale-110 transition-all ease-out duration-300 w-full aspect-square"
+        alt={`Illustration of ${project.title}`}
+      />
+    </div> #}
+    <h3 class="h5">{% if project.data.title %}{{ project.data.title }}{% else %}<code>{{ project.url }}</code>{% endif %}</h3>
+    {# <p class={paragraphclass}>{project.description}</p> #}
+  </a>
+</div>
+{% endfor %}
