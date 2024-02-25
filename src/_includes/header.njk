@@ -7,7 +7,7 @@
         </a>
       </div>
 
-      <div class="flex lg:hidden flex-col items-end">
+      <div class="flex md:hidden flex-col items-end">
         <button
           id="menu-button"
           aria-controls="menu"
@@ -15,35 +15,35 @@
           class="p-2 text-grey6"
           onClick="document.getElementById('menu').classList.toggle('hidden')"
         >
-          0
+          {% svgIcon 'src/assets/icons/menu-24px.svg' %}
         </button>
       </div>
 
-      <nav class="hidden lg:flex h-full space-x-8">
-        {# {menuLinks.map(({ text, href }) => ( #}
+      <nav class="hidden md:flex h-full space-x-8">
+        {% for link in global.menuLinks %}
           <a
-            href="/test"
-            class="uppercase hover:underline underline-offset-8 inline-flex items-center"
+            href="/#{{ link }}"
+            class="text-element uppercase hover:underline underline-offset-8 inline-flex items-center"
           >
-            <span>test</span>
+            <span>{{ link }}</span>
           </a>
-        {# ))} #}
+        {% endfor %}
       </nav>
     </div>
 
     <nav
       id="menu"
-      class="flex hidden lg:hidden flex-col items-end space-y-2"
+      class="flex hidden md:hidden flex-col items-end space-y-2"
       aria-labelledby="menu-button"
     >
-      {# {menuLinks.map(({ text, href }) => ( #}
+      {% for link in global.menuLinks %}
         <a
-          href="/test"
-          class="uppercase hover:underline underline-offset-8"
+          href="/#{{ link }}"
+          class="text-element uppercase hover:underline underline-offset-8"
         >
-          test
+          {{ link }}
         </a>
-      {# ))} #}
+      {% endfor %}
     </nav>
   </div>
 </div>
