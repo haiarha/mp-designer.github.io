@@ -2,8 +2,8 @@
   <div class="container">
     <div class="h-16 md:h-24 flex justify-between items-center">
       <div class="h-full">
-        <a href="/#" class="h-full inline-flex items-center">
-          <span class="text-logo">VV</span>
+        <a href="/#" class="h-full inline-flex items-center -ml-3.5">
+          {% svgIcon 'src/assets/icons/logo.svg' %}
         </a>
       </div>
 
@@ -23,9 +23,9 @@
         {% for link in global.menuLinks %}
           <a
             href="/#{{ link }}"
-            class="text-element uppercase hover:underline underline-offset-8 inline-flex items-center"
+            class="text-element uppercase group inline-flex items-center"
           >
-            <span>{{ link }}</span>
+            <span class="underline-animated">{{ link }}</span>
           </a>
         {% endfor %}
       </nav>

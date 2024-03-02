@@ -5,3 +5,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+.underline-animated {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline-animated::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  bottom: -0.5rem;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.group:hover .underline-animated::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
