@@ -20,12 +20,12 @@
       </div>
 
       <nav class="hidden md:flex h-full space-x-8">
-        {% for link in global.menuLinks %}
+        {% for text, link in global.menuLinks %}
           <a
-            href="/#{{ link }}"
+            href="{{ link }}"
             class="text-element uppercase group inline-flex items-center"
           >
-            <span class="underline-animated">{{ link }}</span>
+            <span class="underline-animated">{{ text }}</span>
           </a>
         {% endfor %}
       </nav>
@@ -36,12 +36,12 @@
       class="flex hidden md:hidden flex-col items-end space-y-2"
       aria-labelledby="menu-button"
     >
-      {% for link in global.menuLinks %}
+      {% for text, link in global.menuLinks %}
         <a
-          href="/#{{ link }}"
+          href="{{ link }}"
           class="text-element uppercase hover:underline underline-offset-8"
         >
-          {{ link }}
+          {{ text }}
         </a>
       {% endfor %}
     </nav>

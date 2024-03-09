@@ -1,7 +1,3 @@
----
-title: Project 2 title
----
-
 # Project 2 title
 
 2023, WebDesign
