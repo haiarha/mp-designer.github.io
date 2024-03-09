@@ -1,6 +1,9 @@
 {
   "menuLinks": {
     "Projects": "/#projects",
-    "About": "/#about"
+    "About Me": "/#about"
+  },
+  "socialLinks": {
+    "LinkedIn": "https://www.linkedin.com/in/marharyta-perevalova/"
   }
 }
