@@ -29,11 +29,9 @@ module.exports = function (eleventyConfig) {
         return (parsed = htmlParser.parse(html));
       };
 
-      item.data.title ??= (() => getParsed().querySelector("h1")?.innerText)();
-      item.data.imgSrc ??= (() =>
-        getParsed().querySelector("img")?.attributes.src)();
-      item.data.description ??= (() =>
-        getParsed().querySelector("p")?.innerText)();
+      item.data.title ??= getParsed().querySelector("h1")?.innerText;
+      item.data.imgSrc ??= getParsed().querySelector("img")?.attributes.src;
+      item.data.description ??= getParsed().querySelector("p")?.innerText;
       return item;
     });
   });
