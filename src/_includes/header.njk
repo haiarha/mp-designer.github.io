@@ -1,6 +1,6 @@
-<div class="sticky z-10 top-0 left-0 right-0 bg-white text-h4">
+<div class="sticky z-10 top-0 left-0 right-0 bg-white text-grey6 text-h4">
   <div class="container">
-    <div class="h-16 md:h-14 md:my-6 flex justify-between items-center">
+    <div class="h-16 md:h-[3.75rem] md:my-4 flex justify-between items-center">
       <div class="h-full">
         <a href="/#" class="h-full inline-flex items-center -ml-3.5" onClick="_headerMenuHide()">
           {% svgIcon 'src/assets/icons/logo-animated.svg' %}
@@ -24,7 +24,7 @@
             </a>
           {% endfor %}
         </nav>
-        <button class="h-full px-9 ml-8 bg-grey6 text-white text-element">Contact</button>
+        <button class="h-full px-9 ml-8 bg-grey6 text-white text-element inline-flex items-center">Contact</button>
       </div>
     </div>
     <div
@@ -60,6 +60,10 @@
           .getElementById('menu-button')
           .classList
           .toggle('active');
+        document
+          .getElementsByTagName('body')[0]
+          .classList
+          .toggle('overflow-hidden');
       }
       function _headerMenuHide() {
         document
@@ -70,6 +74,10 @@
           .getElementById('menu-button')
           .classList
           .remove('active');
+        document
+          .getElementsByTagName('body')[0]
+          .classList
+          .remove('overflow-hidden');
       }
     </script>
   </div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "head.njk" %}
+  <style>
+    ._project-content img {
+      width: 100%;
+      margin-top: 3rem;
+    }
+  </style>
+  <body>
+    <div class="text-grey5 text-bodyS md:text-bodyM bg-slate-100 min-h-screen flex flex-col">
+      {% include "header.njk" %}
+
+      <main>
+        <div class="container">
+          <div class="mb-[3.375rem]">
+            <h1
+              class="mb-6 text-grey6 font-sans-heading text-hL md:text-hXL uppercase"
+              style="view-transition-name: 'project-{{ page.url }}'">{{ title }}</h1>
+
+            <div class="flex flex-wrap space-x-4">
+              {% for keyword in keywords %}
+                <div class="h-9 px-4 text-element text-grey6 bg-grey1 inline-flex items-center rounded-[1.125rem]">
+                  {{ keyword }}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-20">
+          <img src="{{ imgSrc }}" class="w-full"/>
+        </div>
+
+        <div class="container _project-content">
+          {{ content | safe }}
+        </div>
+      </main>
+      {% include "footer.njk" %}
+    </div>
+  </body>
+</html>
