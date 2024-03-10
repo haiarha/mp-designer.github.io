@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include "head.njk" %}
-  <style>
-    ._project-content img {
-      width: 100%;
-      margin-top: 3rem;
-    }
-  </style>
+  <head>
+    {% set metaDescription = description %}
+    {% include "head.njk" %}
+    <style>
+      ._project-content img {
+        width: 100%;
+        margin-top: 3rem;
+      }
+    </style>
+  </head>
   <body>
     <div class="text-grey5 text-bodyS md:text-bodyM bg-slate-100 min-h-screen flex flex-col">
       {% include "header.njk" %}
@@ -24,7 +27,7 @@
           </div>
         </div>
         <div class="mb-20">
-          <img src="{{ imgSrc }}" class="object-cover w-full aspect-square md:aspect-auto md:h-[540px] lg:h-[648px]" style="view-transition-name: project-image-{{ index }}"/>
+          <img src="{{ imgSrc }}" class="object-cover w-full aspect-square md:aspect-auto md:h-[540px] lg:h-[648px]" alt="Illustration of {{ project.data.title }}" style="view-transition-name: project-image-{{ index }}"/>
         </div>
         <div class="container _project-content">
           {{ content | safe }}
