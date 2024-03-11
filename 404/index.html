@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
-    <title>Not found</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/em-per.github.io/assets/css/tailwind.css">
+    
+    <title>Not found | Margo&#39;s portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="view-transition" content="same-origin">
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/em-per.github.io/assets/css/tailwind.css">
+
   </head>
   <body>
-    <div class="text-grey6 text-body3 bg-slate-100 min-h-screen flex flex-col">
-  <div class="sticky z-10 top-0 left-0 right-0 bg-white text-h4">
+    <div class="text-grey5 text-bodyS md:text-bodyM bg-slate-100 min-h-screen flex flex-col">
+      <div class="sticky z-10 top-0 left-0 right-0 bg-white text-grey6 text-h4">
   <div class="container">
-    <div class="h-16 md:h-14 md:my-6 flex justify-between items-center">
+    <div class="h-16 md:h-[3.75rem] md:my-4 flex justify-between items-center">
       <div class="h-full">
-        <a href="/em-per.github.io/#" class="h-full inline-flex items-center -ml-3.5" onClick="_headerMenuHide()">
+        <a href="/em-per.github.io/#" class="h-full inline-flex items-center -ml-3.5" aria-label="Homepage" onClick="_headerMenuHide()">
           <svg width="100" height="48" viewBox="0 0 100 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
   #mPart, #pPart1, #pPart2 {
@@ -140,7 +143,7 @@
         </a>
       </div>
       <div class="flex md:hidden flex-col items-end">
-        <button id="menu-button" aria-controls="menu" aria-label="Menu" class="p-2 text-grey6 group" onClick="_headerMenuToggle()">
+        <button id="menu-button" aria-controls="menu" aria-label="Menu" class="p-2 text-grey6" onClick="_headerMenuToggle()">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
   #line1, #line2, #line3 {
@@ -175,12 +178,12 @@
               <span class="custom-underline">Projects</span>
             </a>
           
-            <a href="/em-per.github.io/#about" class="group text-element uppercase inline-flex items-center">
+            <a href="/em-per.github.io/about" class="group text-element uppercase inline-flex items-center">
               <span class="custom-underline">About Me</span>
             </a>
           
         </nav>
-        <button class="h-full px-9 ml-8 bg-grey6 text-white text-element">Contact</button>
+        <button class="h-full px-9 ml-8 bg-grey6 text-white text-element inline-flex items-center">Contact</button>
       </div>
     </div>
     <div id="menu" class="flex hidden md:hidden bg-white pt-16 pb-10 px-5 fixed -z-10 top-0 bottom-0 left-0 right-0 flex-col items-center
@@ -193,7 +196,7 @@
               <span class="custom-underline">Projects</span>
             </a>
           
-            <a href="/em-per.github.io/#about" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
+            <a href="/em-per.github.io/about" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
               <span class="custom-underline">About Me</span>
             </a>
           
@@ -221,6 +224,10 @@
           .getElementById('menu-button')
           .classList
           .toggle('active');
+        document
+          .getElementsByTagName('body')[0]
+          .classList
+          .toggle('overflow-hidden');
       }
       function _headerMenuHide() {
         document
@@ -231,13 +238,17 @@
           .getElementById('menu-button')
           .classList
           .remove('active');
+        document
+          .getElementsByTagName('body')[0]
+          .classList
+          .remove('overflow-hidden');
       }
     </script>
   </div>
 </div>
 
 
-  <main class="container py-4 flex-grow">
+      <main class="container flex-grow"> 
 <h1 class="mt-24 mb-16">Page not found</h1>
 <p class="mb-12">
   Sorry 😔, we couldn't find what you were looking for.
@@ -249,26 +260,47 @@
 </p>
 </main>
 
-  <footer>
-    <div class="bg-gray-200 text-gray-900 py-4">
-      <div class="container py-4">
-        <div class="flex justify-center">
+      <footer>
+  <div class="bg-grey1 py-9 md:py-10">
+    <div class="container">
+      <div class="flex justify-between flex-col md:flex-row space-y-12 md:space-y-0">
+        <div class="flex flex-col">
+          <p class="mb-4 text-hS md:text-hM text-grey6">Marharyta Perevalova</p>
+
+          <div class="h-9 md:h-10 inline-flex items-center">
+            <a href="mailto:m.m.perevalova@gmail.com">m.m.perevalova@gmail.com</a>
+          </div>
+
+          <div class="h-9 md:h-10 inline-flex items-center">
+            <p>Lisbon, Portugal</p>
+          </div>
+
+          <div class="-ml-2 mt-6 flex flex-wrap justify-start space-x-3 text-grey6">
+            
+              <a href="https://www.linkedin.com/in/marharyta-perevalova/" target="_blank" class="p-2" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.959 13.7189V21.0979H17.681V14.2129C17.681 12.4829 17.062 11.3029 15.514 11.3029C14.332 11.3029 13.628 12.0989 13.319 12.8679C13.206 13.1429 13.177 13.5259 13.177 13.9109V21.0979H8.897C8.897 21.0979 8.955 9.43788 8.897 8.22888H13.177V10.0529L13.149 10.0949H13.177V10.0529C13.745 9.17788 14.76 7.92688 17.033 7.92688C19.848 7.92688 21.959 9.76688 21.959 13.7189ZM4.421 2.02588C2.958 2.02588 2 2.98588 2 4.24888C2 5.48388 2.93 6.47288 4.365 6.47288H4.393C5.886 6.47288 6.813 5.48388 6.813 4.24888C6.787 2.98588 5.887 2.02588 4.422 2.02588H4.421ZM2.254 21.0979H6.532V8.22888H2.254V21.0979Z" fill="currentColor"></path>
+</svg>
+
+              </a>
+            
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <p class="mb-4 text-hS md:text-hM text-grey6">Projects</p>
+
           
-          
-            <a href="/em-per.github.io/TEST" class="hover:underline mx-4">
-              TEST
-            </a>
+            <div class="h-9 md:h-10 inline-flex items-center">
+              <a href="/em-per.github.io/projects/01-logistics-management-system/">Logistics Management System</a>
+            </div>
           
         </div>
       </div>
     </div>
-    <div class="bg-gray-800 text-center py-2">
-      <div class="container py-4">
-        <p>&copy; 2023 Portfolio. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-</div>
+  </div>
+</footer>
 
+    </div>
   </body>
 </html>
