@@ -41,7 +41,7 @@ markdownLibrary.renderer.rules.heading_open = function (
 
   return self.renderToken(tokens, idx, options);
 };
-markdownLibrary.renderer.rules.paragraph_open = () => `<p class="mb-[0.875rem] md:mb-4 ${maxWidthClass}">`;
+markdownLibrary.renderer.rules.paragraph_open = () => `<p class="mb-[0.875rem] ${maxWidthClass}">`;
 markdownLibrary.renderer.rules.image_open = () => `<img class="mb-20 w-full">`;
 
 module.exports = markdownLibrary;
