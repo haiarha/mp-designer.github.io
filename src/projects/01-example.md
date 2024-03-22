@@ -1,6 +1,6 @@
 ---
 title: Logistics Management System
-description: Short project description
+description: Short project descriptionShort project descriptionShort project descriptionShort project descriptionShort project description
 imgSrc: https://github.com/haiarha/em-per.github.io/assets/28811614/4062ee02-c444-4290-9458-08a2fc877d23
 keywords:
   - Product design
@@ -17,19 +17,34 @@ meta:
 
 Logistics module is an internal project and a part of MYRIG ecosystem for covering needs of logistics department as well as business needs of the company.
 
-MYRIG ecosystem – innovation ecosystem for efficient mining including industrial mining infrastructure, repair shop chain and professional mining equipment marketplace.
+[MYRIG ecosystem](https://github.com/haiarha/em-per.github.io/assets/28811614/4062ee02-c444-4290-9458-08a2fc877d23) – innovation ecosystem for efficient mining including industrial mining infrastructure, repair shop chain and professional mining equipment marketplace.
 
 ## Goal
 
-At the time of my work in the company, the project was in active development.
+- At the time of my work in the company, the project was in active development.
+- At the time of my work in the company, the project was in active development.
+- At the time of my work in the company, the project was in active development.
 
-I also reduced the time and costs of the development process by addressing complex issues and foreseeing variable scenarios.
-
-Design solutions from this project influenced other company initiatives.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. At the time of my work in the company, the project was in active development.
+1. I also reduced the time and costs of the development process by addressing complex issues and foreseeing variable scenarios.
+1. Design solutions from this project influenced other company initiatives.
 
 The UI library I created was successfully reused in another MUI 4-based project.
 
-<img width="100%" alt="Screenshot 2023-10-30 at 16 19 02" src="https://github.com/haiarha/em-per.github.io/assets/28811614/4062ee02-c444-4290-9458-08a2fc877d23">
+![Screenshot 2023-10-30 at 16 19 02](https://github.com/haiarha/em-per.github.io/assets/28811614/4062ee02-c444-4290-9458-08a2fc877d23)
 
 ## 01. Empathize
 
