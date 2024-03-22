@@ -45,5 +45,6 @@ md.renderer.rules.paragraph_open = (tokens, idx, options, env, self) => `<p clas
 md.renderer.rules.image_open = (tokens, idx, options, env, self) => `<img class="md mb-20 w-full">`;
 md.renderer.rules.bullet_list_open = (tokens, idx, options, env, self) => `<ul class="md pl-8 list-disc ${maxWidthClass}">`;
 md.renderer.rules.ordered_list_open = (tokens, idx, options, env, self) => `<ol class="md pl-8 list-decimal ${maxWidthClass}">`;
+md.renderer.rules.link_open = (tokens, idx, options, env, self) => `<a class="md cursor-pointer hover:underline">`;
 
 module.exports = md;
