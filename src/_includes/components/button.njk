@@ -1,7 +1,7 @@
-{% macro button(tag='button', variant='primary', iconBefore=false, text, attrs) %}
+{% macro button(tag='button', variant='primary', iconBefore=false, attrs, text) %}
   <{{ tag }}
     class="
-      h-12 md:h-[3.75rem] w-full md:w-auto px-9 py-2
+      h-12 md:h-[3.75rem] w-full md:w-auto px-2 md:px-9 py-2
       inline-flex items-center justify-center
       text-element
       transition-all ease-out duration-300
@@ -26,14 +26,10 @@
     {% endfor %}
   >
     {% if iconBefore %}
-      <span class="mr-2">
-        {# TODO #}
-        {# {% svgIcon '/assets/icons/' + iconBefore %} #}
-        {{ iconBefore }}
-      </span>
+      <img src="{{ iconBefore }}" class="mr-2 w-6 h-6 object-contain"/>
     {% endif %}
 
-    <span>
+    <span class="text-nowrap">
       {{ text | safe }}
     </span>
   </{{ tag }}>
