@@ -111,7 +111,11 @@
     }
   }
 </style>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28 11H15V37H28V11ZM47 11H34V37H47V11ZM53 11H66V37H53V11ZM85 11H72V24H85V11Z" fill="currentColor"/>
+<rect id="bar1" x="15" y="11" width="13" height="26" fill="currentColor"/>
+<rect id="bar2" x="34" y="11" width="13" height="26" fill="currentColor"/>
+<rect id="bar3" x="53" y="11" width="13" height="26" fill="currentColor"/>
+<rect id="bar4" x="72" y="11" width="13" height="13" fill="currentColor"/>
+
 <rect id="mPart" x="28" y="11" width="25" height="1" fill="currentColor"/>
 <rect id="pPart1" x="66" y="11" width="6" height="1" fill="currentColor"/>
 <rect id="pPart2" x="66" y="23" width="6" height="1" fill="currentColor"/>
