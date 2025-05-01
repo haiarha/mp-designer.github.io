@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="/mp-designer.github.io/assets/css/main.css">
   </head>
   <body>
+    <a href="#maincontent" class="skip-link" role="link" aria-label="Skip directly to main content">
+      Skip to Main Content
+    </a>
     <div class="text-grey5 text-bodyS md:text-bodyM bg-slate-100 min-h-screen flex flex-col">
       
 <div class="sticky z-10 top-0 left-0 right-0 bg-white text-grey6 text-h4">
@@ -556,14 +559,13 @@
   </div>
 </div>
 
-
       
-  <main class="container flex-grow">
+  <main id="maincontent" class="container flex-grow">
     <div class="pt-6 pb-16 md:pt-20 md:pb-[7.5rem] lg:pb-40 grid grid-cols-1 lg:grid-cols-[24rem_auto] gap-6">
       <div class="">
         <h1 class="mb-10 text-grey6 font-sans-heading text-hL md:text-hXL uppercase">About Me</h1>
         <div class="overflow-hidden rounded-[50%] w-full max-w-[25rem] md:max-w-[19.0625rem] aspect-square">
-          <img src="/mp-designer.github.io/assets/images/project-image-fallback.jpeg" class="w-full h-full object-cover">
+          <img src="/mp-designer.github.io/assets/images/project-image-fallback.jpeg" alt="Photo of Marharyta Perevalova" class="w-full h-full object-cover">
         </div>
       </div>
       <div>
@@ -592,9 +594,9 @@
           bg-white hover:bg-grey1 active:bg-grey2
         
       
-    " href="https://www.ucl.ac.uk/careers/sites/careers/files/your_cv_ucg.pdf" target="_blank" download="cv">
+    " href="https://www.ucl.ac.uk/careers/sites/careers/files/your_cv_ucg.pdf" target="_blank" download="cv" aria-label="Download my Curriculum Vitae in PDF format">
     
-      <img src="/mp-designer.github.io/assets/icons/download-24px.svg" class="mr-2 w-6 h-6 object-contain">
+      <img src="/mp-designer.github.io/assets/icons/download-24px.svg" alt="" class="mr-2 w-6 h-6 object-contain">
     
 
     <span class="text-nowrap">
@@ -606,16 +608,15 @@
     </div>
   </main>
 
-
       <footer>
   <div class="bg-grey1 py-9 md:py-10">
     <div class="container">
       <div class="flex justify-between flex-col md:flex-row space-y-12 md:space-y-0">
         <div class="flex flex-col">
-          <p class="mb-4 font-sans-heading text-hS md:text-hM text-grey6">Marharyta Perevalova</p>
+          <h2 class="mb-4 font-sans-heading text-hS md:text-hM text-grey6">Marharyta Perevalova</h2>
 
           <div class="h-9 md:h-10 inline-flex items-center">
-            <a href="mailto:m.m.perevalova@gmail.com" class="hover:underline">m.m.perevalova@gmail.com</a>
+            <a href="mailto:m.m.perevalova@gmail.com" aria-label="Send an email to m.m.perevalova@gmail.com" class="hover:underline">m.m.perevalova@gmail.com</a>
           </div>
 
           <div class="h-9 md:h-10 inline-flex items-center">
@@ -635,7 +636,7 @@
         </div>
 
         <div class="flex flex-col">
-          <p class="mb-4 font-sans-heading text-hS md:text-hM text-grey6">Projects</p>
+          <h2 class="mb-4 font-sans-heading text-hS md:text-hM text-grey6">Projects</h2>
 
           
             <div class="h-9 md:h-10 inline-flex items-center">
