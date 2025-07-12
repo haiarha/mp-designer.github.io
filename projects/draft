@@ -695,7 +695,7 @@
 
           
             <div class="h-9 md:h-10 inline-flex items-center">
-              <a href="/projects/example/" class="hover:underline">Example project</a>
+              <a href="/projects/01-example/" class="hover:underline">Example project</a>
             </div>
           
         </div>
