@@ -2,21 +2,23 @@
 <html lang="en">
   <head>
     
-    <title>About Me | Margo&#39;s portfolio</title>
+      <meta name="robots" content="index, nofollow">
+    
+    <title>Markup examples | Margo&#39;s portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="view-transition" content="same-origin">
-    <meta name="description" content="">
-    <link rel="apple-touch-icon" sizes="180x180" href="/mp-designer.github.io/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/mp-designer.github.io/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/mp-designer.github.io/assets/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" href="/mp-designer.github.io/assets/favicon/favicon.ico">
-    <link rel="manifest" href="/mp-designer.github.io/assets/favicon/site.webmanifest">
+    <meta name="view-transition" content="same-origin"/>
+    <meta name="description" content="Example markup snippets">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/mp-designer.github.io/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
     <a href="#maincontent" class="skip-link" role="link" aria-label="Skip directly to main content">
@@ -28,7 +30,7 @@
   <div class="container">
     <div class="h-16 md:h-[3.75rem] md:my-4 flex justify-between items-center">
       <div class="h-full">
-        <a id="logo-link" href="/mp-designer.github.io/#" class="h-full inline-flex items-center -ml-3.5" aria-label="Homepage" onClick="_headerMenuHide()">
+        <a id="logo-link" href="/#" class="h-full inline-flex items-center -ml-3.5" aria-label="Homepage" onClick="_headerMenuHide()">
           <svg class="logo-animated" width="100" height="48" viewBox="0 0 100 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
   .logo-animated.active {
@@ -182,14 +184,14 @@
     }
   }
 </style>
-<rect class="logo-animated-bar1" x="15" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar2" x="34" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar3" x="53" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar4" x="72" y="11" width="13" height="13" fill="currentColor"></rect>
+<rect class="logo-animated-bar1" x="15" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar2" x="34" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar3" x="53" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar4" x="72" y="11" width="13" height="13" fill="currentColor"/>
 
-<rect class="logo-animated-m" x="28" y="11" width="25" height="1" fill="currentColor"></rect>
-<rect class="logo-animated-p1" x="66" y="11" width="6" height="1" fill="currentColor"></rect>
-<rect class="logo-animated-p2" x="66" y="23" width="6" height="1" fill="currentColor"></rect>
+<rect class="logo-animated-m" x="28" y="11" width="25" height="1" fill="currentColor"/>
+<rect class="logo-animated-p1" x="66" y="11" width="6" height="1" fill="currentColor"/>
+<rect class="logo-animated-p2" x="66" y="23" width="6" height="1" fill="currentColor"/>
 </svg>
 
         </a>
@@ -351,14 +353,14 @@
     }
   }
 </style>
-<rect class="logo-animated-bar1" x="15" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar2" x="34" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar3" x="53" y="11" width="13" height="26" fill="currentColor"></rect>
-<rect class="logo-animated-bar4" x="72" y="11" width="13" height="13" fill="currentColor"></rect>
+<rect class="logo-animated-bar1" x="15" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar2" x="34" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar3" x="53" y="11" width="13" height="26" fill="currentColor"/>
+<rect class="logo-animated-bar4" x="72" y="11" width="13" height="13" fill="currentColor"/>
 
-<rect class="logo-animated-m" x="28" y="11" width="25" height="1" fill="currentColor"></rect>
-<rect class="logo-animated-p1" x="66" y="11" width="6" height="1" fill="currentColor"></rect>
-<rect class="logo-animated-p2" x="66" y="23" width="6" height="1" fill="currentColor"></rect>
+<rect class="logo-animated-m" x="28" y="11" width="25" height="1" fill="currentColor"/>
+<rect class="logo-animated-p1" x="66" y="11" width="6" height="1" fill="currentColor"/>
+<rect class="logo-animated-p2" x="66" y="23" width="6" height="1" fill="currentColor"/>
 </svg>
 
           </div>
@@ -386,9 +388,9 @@
     transform: rotate(-45deg) scaleX(1.4) translateY(-7px);
   }
 </style>
-<path id="line1" d="M3 5H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"></path>
-<path id="line2" d="M3 12H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"></path>
-<path id="line3" d="M3 19H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"></path>
+<path id="line1" d="M3 5H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"/>
+<path id="line2" d="M3 12H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"/>
+<path id="line3" d="M3 19H21" stroke="currentColor" stroke-width="1.3" stroke-linecap="square" stroke-linejoin="round"/>
 </svg>
 
         </button>
@@ -396,18 +398,19 @@
       <div class="h-full hidden md:flex items-center">
         <nav class="flex h-full space-x-8">
           
-            <a href="/mp-designer.github.io/#projects" class="group text-element uppercase inline-flex items-center">
+            <a href="/#projects" class="group text-element uppercase inline-flex items-center">
               <span class="custom-underline">Projects</span>
             </a>
           
-            <a href="/mp-designer.github.io/about" class="group text-element uppercase inline-flex items-center">
+            <a href="/about" class="group text-element uppercase inline-flex items-center">
               <span class="custom-underline">About Me</span>
             </a>
           
         </nav>
         <div class="ml-8">
           
-  <a class="
+  <a
+    class="
       h-12 md:h-[3.75rem] w-full md:w-auto px-2 md:px-9 py-2
       inline-flex items-center justify-center
       text-element
@@ -419,7 +422,11 @@
           bg-grey6 hover:bg-grey7
         
       
-    " href="mailto:m.m.perevalova@gmail.com">
+    "
+    
+      href="mailto:m.m.perevalova@gmail.com"
+    
+  >
     
 
     <span class="text-nowrap">
@@ -430,17 +437,19 @@
         </div>
       </div>
     </div>
-    <div id="menu" class="flex hidden md:hidden bg-white pt-16 pb-10 px-5 fixed -z-10 top-0 bottom-0 left-0 right-0 flex-col items-center
+    <div
+      id="menu"
+      class="flex hidden md:hidden bg-white pt-16 pb-10 px-5 fixed -z-10 top-0 bottom-0 left-0 right-0 flex-col items-center
         justify-between">
       <div></div>
       <div>
         <nav class="flex flex-col items-center space-y-1" aria-labelledby="menu-button">
           
-            <a href="/mp-designer.github.io/#projects" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
+            <a href="/#projects" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
               <span class="custom-underline">Projects</span>
             </a>
           
-            <a href="/mp-designer.github.io/about" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
+            <a href="/about" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
               <span class="custom-underline">About Me</span>
             </a>
           
@@ -449,7 +458,7 @@
           
             <a href="https://www.linkedin.com/in/marharyta-perevalova/" target="_blank" class="p-2" aria-label="LinkedIn">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M21.959 13.7189V21.0979H17.681V14.2129C17.681 12.4829 17.062 11.3029 15.514 11.3029C14.332 11.3029 13.628 12.0989 13.319 12.8679C13.206 13.1429 13.177 13.5259 13.177 13.9109V21.0979H8.897C8.897 21.0979 8.955 9.43788 8.897 8.22888H13.177V10.0529L13.149 10.0949H13.177V10.0529C13.745 9.17788 14.76 7.92688 17.033 7.92688C19.848 7.92688 21.959 9.76688 21.959 13.7189ZM4.421 2.02588C2.958 2.02588 2 2.98588 2 4.24888C2 5.48388 2.93 6.47288 4.365 6.47288H4.393C5.886 6.47288 6.813 5.48388 6.813 4.24888C6.787 2.98588 5.887 2.02588 4.422 2.02588H4.421ZM2.254 21.0979H6.532V8.22888H2.254V21.0979Z" fill="currentColor"></path>
+<path d="M21.959 13.7189V21.0979H17.681V14.2129C17.681 12.4829 17.062 11.3029 15.514 11.3029C14.332 11.3029 13.628 12.0989 13.319 12.8679C13.206 13.1429 13.177 13.5259 13.177 13.9109V21.0979H8.897C8.897 21.0979 8.955 9.43788 8.897 8.22888H13.177V10.0529L13.149 10.0949H13.177V10.0529C13.745 9.17788 14.76 7.92688 17.033 7.92688C19.848 7.92688 21.959 9.76688 21.959 13.7189ZM4.421 2.02588C2.958 2.02588 2 2.98588 2 4.24888C2 5.48388 2.93 6.47288 4.365 6.47288H4.393C5.886 6.47288 6.813 5.48388 6.813 4.24888C6.787 2.98588 5.887 2.02588 4.422 2.02588H4.421ZM2.254 21.0979H6.532V8.22888H2.254V21.0979Z" fill="currentColor"/>
 </svg>
 
             </a>
@@ -457,7 +466,8 @@
         </div>
       </div>
       
-  <a class="
+  <a
+    class="
       h-12 md:h-[3.75rem] w-full md:w-auto px-2 md:px-9 py-2
       inline-flex items-center justify-center
       text-element
@@ -469,7 +479,11 @@
           bg-grey6 hover:bg-grey7
         
       
-    " href="mailto:m.m.perevalova@gmail.com">
+    "
+    
+      href="mailto:m.m.perevalova@gmail.com"
+    
+  >
     
 
     <span class="text-nowrap">
@@ -561,51 +575,88 @@
 </div>
 
       
-  <main id="maincontent" class="container flex-grow">
-    <div class="pt-6 pb-16 md:pt-20 md:pb-[7.5rem] lg:pb-40 grid grid-cols-1 lg:grid-cols-[24rem_auto] gap-6">
-      <div class="">
-        <h1 class="mb-10 text-grey6 font-sans-heading text-hL md:text-hXL uppercase">About Me</h1>
-        <div class="overflow-hidden rounded-[50%] w-full max-w-[25rem] md:max-w-[19.0625rem] aspect-square">
-          <img src="/mp-designer.github.io/assets/images/project-image-fallback.jpeg" alt="Photo of Marharyta Perevalova" class="w-full h-full object-cover">
+  <main id="maincontent">
+    <div class="container">
+      <div class="pt-6 md:pt-20 mb-8 md:mb-[3.375rem]">
+        <h1 class="mb-6 text-grey6 font-sans-heading text-hL md:text-hXL uppercase">Markup examples</h1>
+        <div class="flex flex-wrap -ml-4 -mb-4">
+          
+            <div class="h-9 px-4 ml-4 mb-4 text-grey6 bg-grey1 inline-flex items-center rounded-[1.125rem]">
+              Markup
+            </div>
+          
+            <div class="h-9 px-4 ml-4 mb-4 text-grey6 bg-grey1 inline-flex items-center rounded-[1.125rem]">
+              Examples
+            </div>
+          
         </div>
       </div>
-      <div>
-        <div class="mb-9 lg:pt-4">
-          <p class="md mb-[0.875rem] max-w-[793px] mx-auto">My key value is quality work. In my work I always balance between user needs and business goals.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I always collaborate with developing and business management teams to enhance engagement and work productivity.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I actively use different self-management techniques to stay efficient.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I follow a minimalist lifestyle and apply its principles to my design work.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">My key value is quality work. In my work I always balance between user needs and business goals.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I always collaborate with developing and business management teams to enhance engagement and work productivity.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I actively use different self-management techniques to stay efficient.</p>
-<p class="md mb-[0.875rem] max-w-[793px] mx-auto">I follow a minimalist lifestyle and apply its principles to my design work.</p>
-
-        </div>
+    </div>
+    <div class="mb-14 md:mb-20">
+      <img src="/assets/images/project-image-fallback.jpeg" class="object-cover w-full aspect-square md:aspect-auto md:h-[540px] lg:h-[648px]" alt="Illustration of " style="view-transition-name: project-image-"/>
+    </div>
+    <div class="container">
+      <div class="max-w-[793px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         
-  <a class="
-      h-12 md:h-[3.75rem] w-full md:w-auto px-2 md:px-9 py-2
-      inline-flex items-center justify-center
-      text-element
-      transition-all ease-out duration-300
-      
-        cursor-pointer
+          <div>
+            <h2 class="mb-2 md:mb-4 text-grey6 font-sans-heading text-hS md:text-hL font-bold uppercase">Role</h2>
+            <div>None</div>
+          </div>
         
-          text-grey6 hover:text-grey7 active:text-grey5
-          border border-grey6
-          bg-white hover:bg-grey1 active:bg-grey2
+          <div>
+            <h2 class="mb-2 md:mb-4 text-grey6 font-sans-heading text-hS md:text-hL font-bold uppercase">Team</h2>
+            <div>None</div>
+          </div>
         
-      
-    " href="https://www.ucl.ac.uk/careers/sites/careers/files/your_cv_ucg.pdf" target="_blank" download="cv" aria-label="Download my Curriculum Vitae in PDF format">
-    
-      <img src="/mp-designer.github.io/assets/icons/download-24px.svg" alt="" class="mr-2 w-6 h-6 object-contain">
-    
-
-    <span class="text-nowrap">
-      Download CV
-    </span>
-  </a>
-
+          <div>
+            <h2 class="mb-2 md:mb-4 text-grey6 font-sans-heading text-hS md:text-hL font-bold uppercase">Scope</h2>
+            <div>None</div>
+          </div>
+        
       </div>
+    </div>
+    <style>
+      ._project-content img {
+        width: 100%;
+        margin-top: 2.25rem;
+      }
+    </style>
+    <div class="container _project-content mb-16 md:mb-[7.5rem]">
+      <h2 class="md mb-4 mt-14 md:mt-20 text-grey6 font-sans-heading text-hS md:text-hL font-bold uppercase max-w-[793px] mx-auto">See cheat sheet</h2>
+<p class="md mb-[0.875rem] max-w-[793px] mx-auto"><a class="md cursor-pointer hover:underline">https://www.markdownguide.org/cheat-sheet/</a></p>
+<h3 class="md mb-[0.875rem] md:mb-4 mt-8 md:mt-10 text-grey6 font-sans-heading text-hS md:text-hM max-w-[793px] mx-auto">Basic text:</h3>
+<p class="md mb-[0.875rem] max-w-[793px] mx-auto"><strong>Bold</strong></p>
+<p class="md mb-[0.875rem] max-w-[793px] mx-auto"><em>Italic</em></p>
+<p class="md mb-[0.875rem] max-w-[793px] mx-auto"><s>The world is flat.</s></p>
+<h3 class="md mb-[0.875rem] md:mb-4 mt-8 md:mt-10 text-grey6 font-sans-heading text-hS md:text-hM max-w-[793px] mx-auto">Lists:</h3>
+<ul class="md pl-8 list-disc max-w-[793px] mx-auto"><li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">one</li>
+<li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">two</li>
+<li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">three</li>
+</ul>
+<h3 class="md mb-[0.875rem] md:mb-4 mt-8 md:mt-10 text-grey6 font-sans-heading text-hS md:text-hM max-w-[793px] mx-auto">Numbered lists:</h3>
+<ol class="md pl-8 list-decimal max-w-[793px] mx-auto"><li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">One</li>
+<li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">Two</li>
+<li><p class="md mb-[0.875rem] max-w-[793px] mx-auto">Three</li>
+</ol>
+<h3 class="md mb-[0.875rem] md:mb-4 mt-8 md:mt-10 text-grey6 font-sans-heading text-hS md:text-hM max-w-[793px] mx-auto">Tables</h3>
+<table class="md mb-[0.875rem] w-full max-w-[793px] mx-auto"><thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+
     </div>
   </main>
 
@@ -628,7 +679,7 @@
             
               <a href="https://www.linkedin.com/in/marharyta-perevalova/" target="_blank" class="p-2" aria-label="LinkedIn">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M21.959 13.7189V21.0979H17.681V14.2129C17.681 12.4829 17.062 11.3029 15.514 11.3029C14.332 11.3029 13.628 12.0989 13.319 12.8679C13.206 13.1429 13.177 13.5259 13.177 13.9109V21.0979H8.897C8.897 21.0979 8.955 9.43788 8.897 8.22888H13.177V10.0529L13.149 10.0949H13.177V10.0529C13.745 9.17788 14.76 7.92688 17.033 7.92688C19.848 7.92688 21.959 9.76688 21.959 13.7189ZM4.421 2.02588C2.958 2.02588 2 2.98588 2 4.24888C2 5.48388 2.93 6.47288 4.365 6.47288H4.393C5.886 6.47288 6.813 5.48388 6.813 4.24888C6.787 2.98588 5.887 2.02588 4.422 2.02588H4.421ZM2.254 21.0979H6.532V8.22888H2.254V21.0979Z" fill="currentColor"></path>
+<path d="M21.959 13.7189V21.0979H17.681V14.2129C17.681 12.4829 17.062 11.3029 15.514 11.3029C14.332 11.3029 13.628 12.0989 13.319 12.8679C13.206 13.1429 13.177 13.5259 13.177 13.9109V21.0979H8.897C8.897 21.0979 8.955 9.43788 8.897 8.22888H13.177V10.0529L13.149 10.0949H13.177V10.0529C13.745 9.17788 14.76 7.92688 17.033 7.92688C19.848 7.92688 21.959 9.76688 21.959 13.7189ZM4.421 2.02588C2.958 2.02588 2 2.98588 2 4.24888C2 5.48388 2.93 6.47288 4.365 6.47288H4.393C5.886 6.47288 6.813 5.48388 6.813 4.24888C6.787 2.98588 5.887 2.02588 4.422 2.02588H4.421ZM2.254 21.0979H6.532V8.22888H2.254V21.0979Z" fill="currentColor"/>
 </svg>
 
               </a>
@@ -641,7 +692,7 @@
 
           
             <div class="h-9 md:h-10 inline-flex items-center">
-              <a href="/mp-designer.github.io/projects/01-example/" class="hover:underline">Example project</a>
+              <a href="/projects/01-example/" class="hover:underline">Example project</a>
             </div>
           
         </div>
