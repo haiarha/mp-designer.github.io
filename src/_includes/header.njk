@@ -14,6 +14,32 @@
   </div>
 </div>
 <div class="relative z-10 text-grey6 group">
+  <div
+    id="menu"
+    class="flex md:hidden bg-grey1_5 pt-16 pb-10 px-5 fixed -z-10 top-2 bottom-[12%] left-2 right-2 rounded-[1.25rem]
+      backdrop-blur-lg flex-col items-center justify-between -translate-y-[105%] transition-transform duration-300 ease-out">
+    <div></div>
+    <div>
+      <nav class="flex flex-col items-center space-y-1" aria-labelledby="menu-button">
+        {% for text, link in global.menuLinks %}
+          <a href="{{ link }}" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
+            <span class="custom-underline">{{ text }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+      <div class="w-full flex flex-wrap justify-center mt-2 space-x-3">
+        {% for name, link in global.socialLinks %}
+          <a href="{{ link }}" target="_blank" class="p-2" aria-label="{{ name }}">
+            {% svgIcon '/assets/icons/' + name + '-24px.svg' %}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+    {{ button(tag="a", attrs={
+    href: 'mailto:' + global.email
+  }, text="Contact" ) }}
+  </div>
+  <div id="menu-overlay" class="fixed hidden -z-20 top-0 bottom-0 left-0 right-0" onClick="_headerMenuHide()"></div>
   <div class="fixed z-10 top-2 md:top-5 left-0 right-0 px-2 md:px-5 h-0">
     <div class="max-w-[810px] mx-auto md:py-[0.3125rem] pl-[0.4375rem] pr-[0.6875rem] rounded-[1.25rem] text-grey6 text-h4
         group-has-[#menu.translate-y-0]:backdrop-blur-0 backdrop-blur-lg group-has-[#menu.translate-y-0]:bg-transparent
@@ -46,32 +72,6 @@
       </div>
     </div>
   </div>
-  <div
-    id="menu"
-    class="flex md:hidden bg-grey1_5 pt-16 pb-10 px-5 fixed -z-10 top-2 bottom-[12%] left-2 right-2 rounded-[1.25rem]
-      backdrop-blur-lg flex-col items-center justify-between -translate-y-full transition-transform duration-300 ease-out">
-    <div></div>
-    <div>
-      <nav class="flex flex-col items-center space-y-1" aria-labelledby="menu-button">
-        {% for text, link in global.menuLinks %}
-          <a href="{{ link }}" class="text-element uppercase group inline-flex items-center h-16" onClick="_headerMenuHide()">
-            <span class="custom-underline">{{ text }}</span>
-          </a>
-        {% endfor %}
-      </nav>
-      <div class="w-full flex flex-wrap justify-center mt-2 space-x-3">
-        {% for name, link in global.socialLinks %}
-          <a href="{{ link }}" target="_blank" class="p-2" aria-label="{{ name }}">
-            {% svgIcon '/assets/icons/' + name + '-24px.svg' %}
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-    {{ button(tag="a", attrs={
-    href: 'mailto:' + global.email
-  }, text="Contact" ) }}
-  </div>
-  <div id="menu-overlay" class="fixed hidden -z-20 top-0 bottom-0 left-0 right-0" onClick="_headerMenuHide()"></div>
   <script>
     function _headerMenuToggle() {
       document
