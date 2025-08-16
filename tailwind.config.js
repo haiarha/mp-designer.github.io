@@ -125,8 +125,7 @@ module.exports = {
       grey3: "#A1A1A1",
       grey4: "#7E7E7F",
       grey5: "#5C5C5C",
-      grey6: "#333333",
-      grey6_5: "#141414",
+      grey6: "#141414",
       grey7: "#131313",
     },
     container: {
