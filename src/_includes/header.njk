@@ -71,13 +71,17 @@
     href: 'mailto:' + global.email
   }, text="Contact" ) }}
   </div>
-  <div class="fixed -z-20 top-0 bottom-0 left-0 right-0" onClick="_headerMenuHide()"></div>
+  <div id="menu-overlay" class="fixed hidden -z-20 top-0 bottom-0 left-0 right-0" onClick="_headerMenuHide()"></div>
   <script>
     function _headerMenuToggle() {
       document
         .getElementById('menu')
         .classList
         .toggle('translate-y-0');
+      document
+        .getElementById('menu-overlay')
+        .classList
+        .toggle('hidden');
       document
         .getElementById('menu-button')
         .classList
@@ -92,6 +96,10 @@
         .getElementById('menu')
         .classList
         .remove('translate-y-0');
+      document
+        .getElementById('menu-overlay')
+        .classList
+        .add('hidden');
       document
         .getElementById('menu-button')
         .classList
